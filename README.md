@@ -1,6 +1,6 @@
 # deepAI_pic_restore
 
-#download a trained model from https://drive.google.com/drive/u/0/my-drive then do the following on anaconda terminal;
+Do the following on anaconda terminal;
 
 #make it your directory
 git clone https://github.com/jsaroni/deepAI_pic_restore/GFPGAN.git
@@ -22,5 +22,7 @@ python setup.py develop
 # you also need to install the realesrgan package
 pip install realesrgan
 
-# To restore a picture. Results are stored in results.
+# Then download a trained model GFPGANCleanv1-NoCE-C2.pth from my google drive https://drive.google.com/drive/u/0/my-drive or from https://github.com/TencentARC/GFPGAN
+
+# To restore a picture use the following. Results are stored in the results directory.
 python inference_gfpgan.py --upscale 2 --test_path inputs/whole_imgs --save_root results
