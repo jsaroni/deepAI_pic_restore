@@ -1,8 +1,7 @@
 # deepAI_pic_restore
 
-#Do the following on anaconda terminal;
+# Do the following on anaconda terminal, clone this repository
 
-#make it your directory
 git clone https://github.com/jsaroni/deepAI_pic_restore/GFPGAN.git
 cd GFPGAN
 
